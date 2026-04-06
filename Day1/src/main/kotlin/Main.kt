@@ -7,7 +7,7 @@ data class Task(
     var isDone: Boolean = false
 )
 
-// Danh sách lưu trữ dùng chung cho các hàm
+// Danh sách lưu trữ dùng chung cho các hàm`
 val todoList = arrayListOf<Task>()
 var nextId = 1 // Tự động tăng ID để không bị trùng
 
